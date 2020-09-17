@@ -32,7 +32,8 @@ a {
     text-decoration: none !important; }
 
 p {
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 17px;
   margin-bottom: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,15 +59,15 @@ figure figcaption {
 
 ::-webkit-selection {
   color: #fff;
-  background: #2c98f0; }
+  background: #96c4d6; }
 
 ::-moz-selection {
   color: #fff;
-  background: #2c98f0; }
+  background: #96c4d6; }
 
 ::selection {
   color: #fff;
-  background: #2c98f0; }
+  background: #96c4d6; }
 
 #colorlib-page {
   background: #FCF5D4;
@@ -158,7 +159,8 @@ figure figcaption {
   font-family: "Quicksand", Arial, sans-serif;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
-  transition: 0.3s; }
+  transition: 0.3s;
+  color: #1D4B27; }
 #colorlib-aside #colorlib-main-menu ul li a:after {
   content: "";
   position: absolute;
@@ -559,7 +561,7 @@ body.offcanvas {
   position: absolute;
   display: block;
   width: 4px;
-  background: pink;//#f2f3f7;
+  background: #9ECFA6;/*pink*/
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -585,30 +587,30 @@ body.offcanvas {
   -ms-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
-  -moz-box-shadow: 0 0 0 5px pink;//#f2f3f7;
-  -webkit-box-shadow: 0 0 0 5px pink;//#f2f3f7;
-  box-shadow: 0 0 0 5px pink;//#f2f3f7;
+  -moz-box-shadow: 0 0 0 5px #9ECFA6;/*pink*/
+  -webkit-box-shadow: 0 0 0 5px #9ECFA6;/*pink*/
+  box-shadow: 0 0 0 5px #9ECFA6;/*pink*/
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-1 {
+    background: #f2af96; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-    background: #ec5453; }
+    background: #8bc9c5; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
-    background: #f9bf3f; }
+    background: #f5b8c6; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
-    background: #a84cb8; }
-  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
-    background: #2fa499; }
+    background: #d5bdf0; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
-    background: #fff;
+    background: #9ECFA6;
     width: 20px;
     height: 20px;
-    margin-left: 10px; }
+    margin-left: 10px; }/**************************************************/
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: pink;//#f2f3f7;
+  background: #fff7e8;/*pink*/
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -623,7 +625,7 @@ body.offcanvas {
   height: 0;
   border-style: solid;
   border-width: 9px 9px 9px 0;
-  border-color: transparent pink/*#f2f3f7*/ transparent transparent;
+  border-color: transparent #fff7e8/*pink*/ transparent transparent;
   left: 0;
   top: 10px;
   margin-left: -9px; }
@@ -972,7 +974,7 @@ body.offcanvas {
 
 .project {
   background-size: cover;
-  background-position: center center;
+  background-position: left top;
   background-repeat: no-repeat;
   position: relative;
   height: 300px;
@@ -985,7 +987,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background: #edcaab;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -1205,7 +1207,7 @@ body.offcanvas {
   margin-right: 4px;
   margin-bottom: 4px;
   font-family: "Quicksand", Arial, sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1229,12 +1231,12 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #2c98f0;
+  background: #78bcf0;/*#9ECFA7;*/
   color: #fff;
-  border: 2px solid #2c98f0; }
+border: 2px solid #659dc7;/*#74a37d;*/ }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #44a4f2 !important;
-    border-color: #44a4f2 !important; }
+    background: #8bd9c3/*#8ACAC5*/ !important;
+    border-color: #81c9b5/*#71aba6*/ !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #2c98f0;

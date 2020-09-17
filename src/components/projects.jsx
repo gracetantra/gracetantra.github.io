@@ -13,100 +13,62 @@ export default class Projects extends Component {
 							</div>
 						</div>
 						<div className="row">
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
+							<div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div className="project" style={{backgroundImage: 'url(images/proj-1.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 01</a></h3>
-											<span>Website</span>
+											<h3><a href="work.html">Personal Website</a></h3>
+											<span style={{fontStyle: 'italic', color: 'rgba(255, 255, 255, 1)'}}>ReactJS, HTML5/CSS5, hosted with GitHub Pages</span>
+                      <span style={{color: 'rgba(255, 255, 255, 1)'}}>I built this personal portfolio website to have a place to show my resume and my work. Though the template was sourced from Colorlib, I rendered the different parts into ReactJS components myself and changed a lot of the CSS and JSX to make this website my own.</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="#"><i className="icon-github" /></a></span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-2.jpg)'}}>
+							<div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div className="project" style={{backgroundImage: 'url(images/proj-2.png)'}}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Work 02</a></h3>
-											<span>Animation</span>
+                      <span>Description</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-								<div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 03</a></h3>
-											<span>Illustration</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 04</a></h3>
-											<span>Application</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 05</a></h3>
-											<span>Graphic, Logo</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 06</a></h3>
-											<span>Web Design</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+            <div className="row">
+              <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
+                <div className="project" style={{backgroundImage: 'url(images/proj-3.png)'}}>
+                  <div className="desc">
+                    <div className="con">
+                      <h3><a href="work.html">Work 03</a></h3>
+                      <span>Description</span>
+                      <p className="icon">
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
+                <div className="project" style={{backgroundImage: 'url(images/proj-4.png)'}}>
+                  <div className="desc">
+                    <div className="con">
+                      <h3><a href="work.html">Work 04</a></h3>
+                      <span>Description</span>
+                      <p className="icon">
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 						<div className="row">
 							<div className="col-md-12 animate-box">
-								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
+								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Click Here To See More On My Github Page!</a></p>
 							</div>
 						</div>
 					</div>

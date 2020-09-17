@@ -19,7 +19,7 @@ export default class Contact extends Component {
                     <i className="icon-mail" />
                   </div>
                   <div className="colorlib-text">
-                    <p><a href="mailto::gtantra@scu.edu">gtantra@scu.edu</a></p>
+                    <p style={{fontSize: '15px'}}><a href="mailto::gtantra@scu.edu">gtantra@scu.edu</a></p>
                   </div>
                 </div>
                 <p/> <p/>
@@ -28,7 +28,7 @@ export default class Contact extends Component {
                     <i className="icon-phone" />
                   </div>
                   <div className="colorlib-text">
-                    <p><a href="tel://">+1 (510) 833 5824</a></p>
+                    <p style={{fontSize: '15px'}}><a href="tel://">+1 (510) 833 5824</a></p>
                   </div>
                 </div>
                 <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
@@ -36,7 +36,7 @@ export default class Contact extends Component {
                     <i className="icon-user-add" />
                   </div>
                   <div className="colorlib-text">
-                    <p>Or check out my social media pages on the left!</p>
+                    <p style={{fontSize: '13px'}}>Or check out my social media pages on the left!</p>
                   </div>
                 </div>
               </div>

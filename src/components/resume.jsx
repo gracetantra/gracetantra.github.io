@@ -8,8 +8,13 @@ export default class Resume extends Component {
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">highlights</span>
-                <h2 className="colorlib-heading animate-box">Timeline</h2>
+                <span className="heading-meta">resume</span>
+                <h2 className="colorlib-heading animate-box">Education and Activities</h2>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                <p><a class="btn btn-primary btn-learn" href="GraceTantraResume.pdf" download="GraceTantraResume"> <i class="icon-download4"/>  Click here to download my full resume!</a></p>
               </div>
             </div>
             <div className="row">
@@ -17,34 +22,49 @@ export default class Resume extends Component {
                 <div className="timeline-centered">
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-3">
+                      <div className="timeline-icon color-1">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Internship at Juniper <span>2019-present</span></h2>
-                        <p>I recently have joined the Juniper Networs as a Software Developer-Intern in the DevOps team. My major part of the work has been into the field of creating sustainable and flexible CI/CD (Continuous Integration & Continuous Development) pipelines which enables developers at Juniper to do rapid development. I am also exploring the role of container technology like Docker and container-orchrastation technologies like K8s, Swarm to create industry standard production environments.</p>
+                        <h2 style={{marginBottom: '7px'}}>Santa Clara University <span>September 2019 - June 2023</span></h2>
+                        <p style={{fontSize:'15px', fontFamily:'"Quicksand", Arial, sans-serif'}}><i>B.S. Computer Science (Minors: Economics, Japanese), Dean's List</i></p>
+                        <p>Relevant Coursework: Data Structures and Algorithms, Introduction to Logic Design, Linear Algebra, Discrete Mathematics</p>
                       </div>
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-4">
+                      <div className="timeline-icon color-2">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Undergraduation at DAIICT<span>2015-2019</span></h2>
-                        <p>I am pursuing my under-graduation studies with major in I.C.T.(Information & Communication Technology). I have taken courses like DSA, OOPs, Computer Networks, IOT, Web-Data Management over the years and have better understanding of these subjects.I have also been part of S.B.G.(Student Body Govenance) scince my first year of college.</p>
+                        <h2 style={{marginBottom: '7px'}}>Singapore American School <span>August 2015 - May 2019</span></h2>
+                        <p style={{fontSize:'15px', fontFamily:'"Quicksand", Arial, sans-serif'}}><i>High School Diploma, Graduated Cum Laude</i></p>
+                        <p style={{marginBottom: '7px'}}>Relevant Coursework: AP Computer Science, AT Computer Science: Data Strucutres and Algorithms (Java)</p>
+                        <p>Activities: Varsity Badminton, Technical Theatre, Biotechnology Club, Middle School Dance Instructor, EAA Help, National Honor Society</p>
                       </div>
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
+                      <div className="timeline-icon color-3" style={{fontSize:'18px'}}>
+                        <i className="icon-briefcase" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Primary and Higher Education <span>2003-2015</span></h2>
-                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p>
+                        <h2>Computer Science Tutor <span>September 2020 - Present</span></h2>
+                        <p>When school is in session, I work as a tutor for SCU's Drahmann Center (my university's center for undergrad academic advising and learning resources) to guide computer science students like me to greater academic success. I began working at the center through a professor's reccomendation.</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4" style={{fontSize:'18px'}}>
+                        <i className="icon-briefcase" />
+                      </div>
+                      <div className="timeline-label">
+                      <h2 style={{marginBottom: '7px'}}>Korean Student Association <span>November 2019 - Present</span></h2>
+                      <p style={{fontSize:'15px', fontFamily:'"Quicksand", Arial, sans-serif'}}><i>Freshman Representative (2019-2020), Events Coordinator (2020-2021)</i></p>
+                        <p>I work with one other event coordinator to create and host new online events to help promote conversation amongst our 70 members during the pandemic. Along with movie screenings and games, we plan events for critical dialogue on social issues within the multicultural community here in the Bay Area.</p>
                       </div>
                     </div>
                   </article>

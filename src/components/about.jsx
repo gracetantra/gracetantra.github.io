@@ -13,8 +13,8 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading1">Hi, I'm Grace!</h2>
-                    <p>I am currently a sophomore at Santa Clara University studying in Computer Science. I'm also minoring in Economics and Japanese Studies, and I enjoy learning Graphic Design on the side. I've loved problem solving ever since I was young. I'm always excited to learn more about different fields within software engineering—especially Artificial Intelligence and Web Development—and love to take on new challenges.</p>
-                    <p>Outside of computer science, I spend my time baking, dancing, doodling, and gaming with friends. Channeling my creativity and having fun have always been important to me! I hope to learn more ways to combine my hobbies with my passion for technology in the future, and I enjoy playing around with small projects to test my ideas out. It's nice to meet you! </p>
+                    <p>I am currently a sophomore at Santa Clara University studying Computer Science; I also minor in Economics and Japanese Studies. I've loved problem solving ever since I was young, and I'm always excited to learn more about different fields within software engineering. </p>
+                    <p>Outside of tech, I love to spend my time baking, dancing, doodling, and gaming with friends. Channeling my creativity and having fun have always been important to me! Feel free to contact me—you can find where to reach me at the bottom of this page, or through my social media on the sidebar. It's nice to meet you! </p>
                     </div>
                 </div>
                 </div>
@@ -26,35 +26,35 @@ export default class About extends Component {
 
             <div className="row row-pt-md">
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
+                <div className="services color-1" style={{background: '#fff7e8'}}>
                 <span className="icon">
                     <i className="icon-leaf" />
                 </span>
                 <div className="desc">
                     <h3>Create </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
+                    <p>I love experimenting with small CS projects to solve problems in my everyday life</p>
                 </div>
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
+                <div className="services color-2" style={{background: '#fff7e8'}}>
                 <span className="icon">
                     <i className="icon-drop" />
                 </span>
                 <div className="desc">
-                    <h3>Explore</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
+                    <h3>Grow</h3>
+                    <p>I enjoy playing around with the unknown and taking up new challenges for myself</p>
                 </div>
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
+                <div className="services color-3" style={{background: '#fff7e8'}}>
                 <span className="icon">
-                    <i className="icon-pencil" />
+                    <i className="icon-heart-outline" />
                 </span>
                 <div className="desc">
-                    <h3>Learn</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                    <h3>Have fun!</h3>
+                    <p>I hope to have fun doing what I do, and always strive to bring more joy to my community</p>
                 </div>
                 </div>
             </div>

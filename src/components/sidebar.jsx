@@ -23,7 +23,7 @@ export default class Sidebar extends Component {
               </ul>
             </div>
           </nav>
-          <div className="icon-img" style={{backgroundImage: 'url(images/favicon.png)'}} />
+          <div className="icon-img" style={{backgroundImage: 'url(images/favicon.pnggg)'}} />
           <div className="colorlib-footer">
             <ul><small>
               <li><a href="https://www.facebook.com/profile.php?id=100010278545637"><i className="icon-facebook2" /></a></li>
@@ -33,8 +33,8 @@ export default class Sidebar extends Component {
             </small></ul>
           </div>
           <div className="colorlib-copyright-footer">
-            <p><small>{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-              Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            <p style={{fontSize: '13px'}}><small>{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
+              Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>, built with React
               <br />Copyright © Grace Tantra 2020
             </small></p>
           </div>
