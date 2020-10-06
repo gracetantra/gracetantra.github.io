@@ -68,7 +68,7 @@ export default class Projects extends Component {
             </div>
 						<div className="row">
 							<div className="col-md-12 animate-box">
-								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Click Here To See More On My Github Page!</a></p>
+								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Click Here To See More On My Github!</a></p>
 							</div>
 						</div>
 					</div>
