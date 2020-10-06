@@ -40,7 +40,7 @@ export default class Projects extends Component {
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> {/*
             <div className="row">
               <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
                 <div className="project" style={{backgroundImage: 'url(images/proj-3.png)'}}>
@@ -66,10 +66,10 @@ export default class Projects extends Component {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>*/}
 						<div className="row">
 							<div className="col-md-12 animate-box">
-								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Click Here To See More On My Github!</a></p>
+								<p><a href="https://github.com/gracetantra" className="btn btn-primary btn-lg btn-load-more">Click Here To See My Github!</a></p>
 							</div>
 						</div>
 					</div>
