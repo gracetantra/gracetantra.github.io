@@ -28,11 +28,12 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/proj-2.png)'}}>
+								<div className="project" style={{backgroundPosition: 'center bottom', backgroundImage: 'url(images/proj-2.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 02</a></h3>
-                      <span>Description</span>
+											<h3><a href="work.html">Sorting Visualizer</a></h3>
+                      <span style={{fontStyle: 'italic', color: 'rgba(255, 255, 255, 1)'}}>ReactJS, HTML5/CSS5</span>
+                      <span style={{color: 'rgba(255, 255, 255, 1)'}}>Created a sorting visualizer that allows the user to see how sorts work, utilizing the ReactJS framework for animations. Followed Clément Mihailescu's tutorial for Merge Sort and implemented the other sorts myself. When I have the time to do so, I hope to add on to this project by adding in HeapSort and QuickSort! </span>
 											<p className="icon">
 											</p>
 										</div>

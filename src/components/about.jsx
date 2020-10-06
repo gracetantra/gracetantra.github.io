@@ -13,7 +13,7 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading1">Hi, I'm Grace!</h2>
-                    <p>I am currently a sophomore at Santa Clara University studying Computer Science; I also minor in Economics and Japanese Studies. I've loved problem solving ever since I was young, and I'm always excited to learn more about different fields within software engineering. </p>
+                    <p>I am currently a sophomore at Santa Clara University studying Computer Science; I also minor in Economics and Japanese Studies. I've loved problem solving ever since I was young, and I'm always excited to learn more about different fields within software engineering. Currently, I'm mainly playing around with Web Development, and am experimenting Game Development and Artificial Intelligence in my free time.</p>
                     <p>Outside of tech, I love to spend my time baking, dancing, doodling, and gaming with friends. Channeling my creativity and having fun have always been important to me! Feel free to contact me—you can find where to reach me at the bottom of this page, or through my social media on the sidebar. It's nice to meet you! </p>
                     </div>
                 </div>
