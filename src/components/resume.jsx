@@ -52,7 +52,7 @@ export default class Resume extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Computer Science Tutor <span>September 2020 - Present</span></h2>
-                        <p>When school is in session, I work as a tutor for SCU's Drahmann Center (my university's center for undergrad academic advising and learning resources) to guide computer science students like me to greater academic success. I began working at the center through a professor's reccomendation.</p>
+                        <p>When school is in session, I work as a tutor for SCU's Drahmann Center (my university's center for undergrad academic advising and learning resources) to guide computer science students like me to greater academic success. I mainly tutor in object-oriented programming, data structures, algorithms, and finite automation.</p>
                       </div>
                     </div>
                   </article>
@@ -62,8 +62,8 @@ export default class Resume extends Component {
                         <i className="icon-briefcase" />
                       </div>
                       <div className="timeline-label">
-                      <h2 style={{marginBottom: '7px'}}>Korean Student Association <span>November 2019 - Present</span></h2>
-                      <p style={{fontSize:'15px', fontFamily:'"Quicksand", Arial, sans-serif'}}><i>Freshman Representative (2019-2020), Events Coordinator (2020-2021)</i></p>
+                      <h2 style={{marginBottom: '7px'}}>Korean Student Association <span>November 2019 - May 2022</span></h2>
+                      <p style={{fontSize:'15px', fontFamily:'"Quicksand", Arial, sans-serif'}}><i>Freshman Representative (2019-2020), Events Coordinator (2020-2021), Co-Chair (2021-2022)</i></p>
                         <p>I work with one other event coordinator to create and host new online events to help promote conversation amongst our 70 members during the pandemic. Along with movie screenings and games, we plan events for critical dialogue on social issues within the multicultural community here in the Bay Area.</p>
                       </div>
                     </div>
